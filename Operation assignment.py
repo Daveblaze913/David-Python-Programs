@@ -14,9 +14,10 @@ print ("Same as last week score:",totalscore == lastweekscore)
 avg = totalscore/4
 
 rewardstars = totalscore//4
-
-totalscore+= 30
-totalscore-= 15
+Team1+= 30
+print ("Bonus score added for showing sportmanship to :", Team1)
+Team3-= 15
+print ("Total score for not showing soortmanship: ", Team3)
 
 
 
