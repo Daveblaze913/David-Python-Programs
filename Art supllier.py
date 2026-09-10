@@ -1,5 +1,5 @@
 def greet_customer():
-    print("Welcome to lemonade stand!")
+    print("Welcome to aRT SUPLLY shop!")
     print("Enjoy getting art supplies freely . ")
 
 greet_customer()
@@ -29,7 +29,7 @@ def thankyou_message(cup):
 
 closing_message = thankyou_message(supplies_sold)
 print(" ")
-print("====================Lemonade stand reciept=======================")
+print("=================== Art supllies reciept=======================")
 print("Price per supply: ",price_per_supply)
 print("No. of Supplies sold : ", supplies_sold)
 print("Total cost: ", rounded_total)
