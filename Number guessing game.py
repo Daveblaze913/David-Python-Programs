@@ -1,30 +1,24 @@
-Players_number = int(input("Enter your number: "))
-computer_number = 26
-print("Computer Guessing game")
-while Players_number in range(1,26):
-    if Players_number is not 26:
-        print("Incorrect you have 4 guesses")
-        if Players_number in range(1,11):
-            print("Warm")
-    elif Players_number is not 26:
-        print("Incorrect you have 3 guesses")
-        if Players_number in range(11,27):
-            print("Hot")
-    elif Players_number is not 26:
-        print("Incorrect you have 2 guesses")
-        if Players_number in range(27,40):
-            print("Cold")
-    elif Players_number is not 26:
-        print("Incorrect you have 1 more guess remaining")
-        if Players_number in range(40,51):
-            print("Ice cold")
-    elif Players_number is not 26:
-        print("You have guessed in correctly THE number was 26 ")
-    else:
-        print("Check if you have put in valid number")
-    if Players_number == computer_number:
-        print("You have won the guessing game the number was 26")
+print("=============================Number guessing games======================================")
+computer = 26
+player_Number = int(input("Enter your number from 1 to 50: "))
 
+while True:
+    if player_Number == computer:
+        print("you guessed it congrats")
+    elif player_Number in range(29,56):
+        print("You are wrong you 4 attempts left. hint: you are cold ")
+    elif player_Number in range(1,6):
+        print("You are wrong you have 3 attempts left. hint you are very cold")
+    elif player_Number in range(10,21):
+        print("You are hot. But you are wrong  2 attempts remaining")
+    elif player_Number in range(21,26):
+        print("You are so close but u are still wrong 1 attempts remaining")
+    elif player_Number in range(25,27):
+        print("You were so close but you are still wrong sadly and your attempts are over sadly ")
+    else:
+        print("Invalid input")
+
+    False
 
 
 
