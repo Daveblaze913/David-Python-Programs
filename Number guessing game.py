@@ -5,6 +5,7 @@ player_Number = int(input("Enter your number from 1 to 50: "))
 while True:
     if player_Number == computer:
         print("you guessed it congrats")
+        break
     elif player_Number in range(29,56):
         print("You are wrong you 4 attempts left. hint: you are cold ")
     elif player_Number in range(1,6):
@@ -17,8 +18,7 @@ while True:
         print("You were so close but you are still wrong sadly and your attempts are over sadly ")
     else:
         print("Invalid input")
-
-    False
+    break
 
 
 
